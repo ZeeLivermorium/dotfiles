@@ -1,0 +1,8 @@
+*
+!.gitignore
+!.bashrc
+!.bash_profile
+!.bash_startup_prompt*
+!.zshrc
+!.vimrc
+!README.md
