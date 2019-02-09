@@ -12,7 +12,7 @@ if [ "$(uname)" != "Darwin" ]; then     # no need to prompt for my Mac
 fi    
 
 # for first time vim set up
-if [ ! -e ".vim/bundle/Vundle.vim" ]; then
+if [ ! -e ~/.vim/bundle/Vundle.vim ]; then
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
     vim +PluginInstall +qall
 fi

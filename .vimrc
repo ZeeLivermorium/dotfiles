@@ -15,12 +15,14 @@ syntax enable
 
 " enable line number
 set nu                 
+set rnu
 
 "
 set shellslash
 
-" set color theme to desert
-colorscheme desert          
+" set color theme 
+set background=dark
+colorscheme gruvbox
 
 "
 set grepprg=grep\ -nH\ $*
@@ -40,12 +42,12 @@ set shiftwidth=4
 "
 set ruler
 
-" auto matching () [] and {}
-inoremap ( ()<Left>
-inoremap [ []<Left>
-inoremap { {}<Left>
-inoremap ' ''<Left>
-inoremap " ""<Left>
+" " auto matching () [] and {}
+" inoremap ( ()<Left>
+" inoremap [ []<Left>
+" inoremap { {}<Left>
+" inoremap ' ''<Left>
+" inoremap " ""<Left>
 
 " change <leader> to <Space>, which is just the space
 let mapleader = "\<Space>"
