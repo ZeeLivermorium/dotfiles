@@ -5,6 +5,6 @@
 !.bash_startup_prompt*
 !.zshrc
 !.vimrc
-!.vim
-!.colors/*.vim
+!*.vim
+!colors
 !README.md
