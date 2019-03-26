@@ -30,14 +30,18 @@ set grepprg=grep\ -nH\ $*
 "
 let g:tex_flavor='latex'
 
-" this set tab = 2 spaces
-set tabstop=2               
+" this set tab = 4 spaces
+set tabstop=4               
 
-"
+" 
 set expandtab
 
-"
+" indenting is 4 spaces
 set shiftwidth=4
+
+set autoindent
+
+set cindent
 
 "
 set ruler
